@@ -34,16 +34,26 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
+     
+     <>
+
+<section className="container">
+      <div className="logo has-text-centered">
+      <Link to="/" title="Logo">
+      <img src={logo} alt="The Gene Guy" style={{ width: '88px' }} />
+      </Link>
+      </div>
+      </section>
+
       <nav
         className="navbar is-transparent"
         role="navigation"
         aria-label="main-navigation"
       >
+
+      
         <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-            </Link>
+           
             {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
@@ -54,43 +64,41 @@ const Navbar = class extends React.Component {
               <span />
               <span />
             </div>
-          </div>
           <div
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
+            <div className="navbar-links has-text-centered is-mega ">
+            <Link className="navbar-item" to="/products">
+                Knowledge base
+              </Link>
+              
+            <Link className="navbar-item" to="/products">
+                Compare CBD Products
               </Link>
               <Link className="navbar-item" to="/products">
-                Products
+                Coupon codes
+              </Link>
+              <Link className="navbar-item" to="/products">
+                Product reviews
               </Link>
               <Link className="navbar-item" to="/blog">
                 Blog
               </Link>
+              <Link className="navbar-item" to="/about">
+                About
+              </Link>
               <Link className="navbar-item" to="/contact">
                 Contact
               </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
+             
             </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
             </div>
-          </div>
         </div>
       </nav>
+      
+</>
+
     )
   }
 }
