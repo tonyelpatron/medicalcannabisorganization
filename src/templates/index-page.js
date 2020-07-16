@@ -84,10 +84,9 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </div>
+      <Testimonials />
 
     </section>
-    <section>
-</section>
   </div>
 
   
