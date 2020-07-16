@@ -28,7 +28,7 @@ const Newsletter = () => (
 <div className="control">
 <div className="is-hidden"></div>
 <input type="hidden" name="list" value="777"/>
-<button className="button is-medium is-link">Subscribe</button>
+<button className="button is-medium is-primary">Subscribe</button>
 </div>
 
 </div>

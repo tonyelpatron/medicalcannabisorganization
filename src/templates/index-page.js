@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import Testimonials from '../components/Testimonials'
 
 export const IndexPageTemplate = ({
   image,
@@ -42,7 +42,7 @@ export const IndexPageTemplate = ({
 
 </div>
 
-<div className="column has-background-green">
+<div className="column">
 <div className="ReviewsContainer">
 <h1 className="title">Brand reviews</h1>
 <h2 className="subtitle">Stories from real users to help you choose which product is right for you</h2>
@@ -84,8 +84,14 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </div>
+
     </section>
+    <section>
+</section>
   </div>
+
+  
+
 )
 
 IndexPageTemplate.propTypes = {

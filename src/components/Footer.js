@@ -21,9 +21,10 @@ const Footer = class extends React.Component {
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
             <div style={{ maxWidth: '100vw' }} className="columns">
-              <div className="column is-4">
+              <div className="column">
                 <section className="menu">
                   <ul className="menu-list">
+                    <h1 className="title">The CBD guru</h1>
                     <li>
                       <Link to="/" className="navbar-item">
                         Home
@@ -31,7 +32,42 @@ const Footer = class extends React.Component {
                     </li>
                     <li>
                       <Link className="navbar-item" to="/about">
-                        About
+                        About us
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/products">
+                        Blog
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/products">
+                        Contact
+                      </Link>
+                    </li>
+                  
+                   
+                  </ul>
+                  
+                </section>
+
+              </div>
+
+
+              <div className="column">
+              <section>
+
+              <ul className="menu-list">
+              <h1 className="title">Best articles</h1>
+
+                    <li>
+                      <Link to="/" className="navbar-item">
+                        How to recognize good quality CBD oil
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/about">
+                        CBD oil buying guide
                       </Link>
                     </li>
                     <li>
@@ -49,27 +85,45 @@ const Footer = class extends React.Component {
                       >
                         Admin
                       </a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-4">
+                      </li>
+                      </ul>
+                      </section>
+
+                 </div> 
+
+              <div className="column">
                 <section>
                   <ul className="menu-list">
+                  <h1 className="title">Science</h1>
+
+                  <li>
+                      <Link className="navbar-item" to="/blog">
+                        Our knowledgebase
+                      </Link>
+                    </li>
                     <li>
                       <Link className="navbar-item" to="/blog">
-                        Latest Stories
+                        Studies proving the effectiveness of CBD
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/blog">
+                        Studies proving the effectiveness of non topical CBD products
                       </Link>
                     </li>
                     <li>
                       <Link className="navbar-item" to="/contact">
-                        Contact
+                        News in the cannabis industry 
                       </Link>
                     </li>
                   </ul>
                 </section>
               </div>
-              <div className="column is-4 social">
+              <div className="column social">
+
+                <ul>
+              <h1 className="title">Social media</h1>
+              </ul>
                 <a title="facebook" href="https://facebook.com">
                   <img
                     src={facebook}
