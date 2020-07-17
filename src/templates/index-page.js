@@ -15,11 +15,6 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
 
-
-<head>
-
-
-</head>
   <div>
   
   <div className="container">
