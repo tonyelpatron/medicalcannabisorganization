@@ -7,7 +7,7 @@ import BlogRoll from '../components/BlogRoll'
 import Testimonials from '../components/Testimonials'
 
 export const IndexPageTemplate = ({
-  image,
+  
   title,
   heading,
   subheading,
