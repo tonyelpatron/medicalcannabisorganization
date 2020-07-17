@@ -16,8 +16,11 @@ export const IndexPageTemplate = ({
 }) => (
 
 
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<head>
 
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+</head>
   <div>
   
   <div className="container">
