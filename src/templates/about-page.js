@@ -36,11 +36,13 @@ const AboutPage = ({ data }) => {
 
   return (
     <Layout>
+      <div className="has-text-centered">
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
       />
+      </div>
     </Layout>
   )
 }
@@ -57,6 +59,7 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+       
       }
     }
   }

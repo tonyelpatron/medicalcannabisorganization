@@ -4,6 +4,8 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import {TestimonialSection} from 'gatsby-theme-testimonials';
+
 
 export const IndexPageTemplate = ({
   image,
@@ -88,7 +90,8 @@ export const IndexPageTemplate = ({
     </section>
   </div>
 
-  
+<TestimonialSection/>
+
 
 )
 
@@ -118,6 +121,7 @@ const IndexPage = ({ data }) => {
         description={frontmatter.description}
         intro={frontmatter.intro}
       />
+      
     </Layout>
   )
 }

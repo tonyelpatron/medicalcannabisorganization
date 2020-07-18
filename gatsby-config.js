@@ -9,6 +9,8 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
+    'gatsby-theme-testimonials'
+
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -59,7 +61,12 @@ module.exports = {
         name: 'images',
       },
     },
-    
+    {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        username: `usernameId`,
+      },
+    },
 
     {
       resolve: 'gatsby-plugin-netlify-cms',

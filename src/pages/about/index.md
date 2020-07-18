@@ -1,19 +1,26 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
+title: About us
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+We are a group of friends with a mutual interest; medical cannabis. 
+We have been using and researching medical cannabis for years, and all these years led to our mission of making medical cannabis available for everyone through providing valueable information and research.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+---
+
+### Educate
+We believe that information should be for everyone.
+We offer a free PDF book that teaches beginners al they need to know about medical cannabis and cbd oil, we also offer a free cbd oil purchasing guide. We have have a news section where you can find all the latest news on the medical cannabis industry.
+We also frequently post articles on subjects related to medical cannabis on our blog.
+
+### Connect
+We bring together people from all over the world to exchange information, skills and networks by hosting events for our members.
+We also implemented social media into our website, making it easy to write and read comments, reviews.
+
+### Invest
+We are a member of the American Hemp Association and we contribute to various NGO'S supporting the research of medical cannabis.
+We also invest money in promising startups in the industry.
+
