@@ -17,6 +17,7 @@ export const IndexPageTemplate = ({
 
   <div>
 
+ewaaaa  a zahbi
   <div className="container">
 <section>    
 <div className="columns has-text-centered">
