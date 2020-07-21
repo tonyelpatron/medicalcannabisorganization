@@ -1,20 +1,30 @@
 module.exports = {
   siteMetadata: {
-    title: 'The CBD Guru',
+    title: 'Medical Cannabis Organization',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Making Medical Cannabis available for everyone through enlightening',
   },
   plugins: [
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
-    'gatsby-theme-testimonials'
+    'gatsby-theme-testimonials',
+    
+
+
 
     {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          
+          {
+            resolve: `gatsby-plugin-layout`,
+            options: {
+              component: require.resolve(`./src/layouts/index.js`),
+            },
+          },
           {
             resolve: 'gatsby-remark-relative-images',
             options: {
@@ -37,6 +47,13 @@ module.exports = {
             },
           },
         ],
+      },
+    },
+
+    {
+      resolve: `gatsby-source-newsapi`,
+      options: {
+        apiKey: `b18f38d9f8d34039b13d61f29dc6817f`,
       },
     },
     {
@@ -64,7 +81,11 @@ module.exports = {
     {
       resolve: `gatsby-source-instagram`,
       options: {
-        username: `usernameId`,
+        username: `medicalcannabisorgnaization`,
+        access_token: "a valid access token",
+        instagram_id: "your instagram_business_account id",
+        paginate: 100,
+        maxPosts: 1000,
       },
     },
 

@@ -4,6 +4,9 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import plant from "../../public/img/cannabisbackground.jpg"
+
+
 import {TestimonialSection} from 'gatsby-theme-testimonials';
 
 
@@ -17,17 +20,55 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
 
+
+
   <div>
 
-  <div className="container">
-<section>    
-<div className="columns has-text-centered">
-<div className="column ">
+<section>
+<div className="columns">
+<div className="column homepagebackground">
 
-<div className="KnowledgeContainer">
-<h1 className="title">Knowledge base</h1>
+
+
+</div>
+
+
+
+
+
+</div>
+</section>
+
+
+
+<div className="column is-12">
+  <div className="container">
+                  <h3 className="has-text-weight-semibold is-size-2">
+                    Latest stories
+                  </h3>
+                  <BlogRoll />
+                  <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/blog">
+                      Read more
+                    </Link>
+                  </div>
+                  </div>
+                </div>
+
+                <div className="hero is-big is-primary is-bold has-text-centered">
+    <div className="hero-body">
+    <div class="container">
+
+<section>    
+<div className="columns ">
+<div className="column">
+
+
+<div className="KnowledgeContaine">
+
+<p className="title">Knowledge base</p>
 <h2 className="subtitle">Learn everything about health and medicinal cannabis</h2>
-<button class="button is-primary">Start learning</button>
+<Link class="button is-link">Start learning</Link>
 
 
 </div>
@@ -37,7 +78,7 @@ export const IndexPageTemplate = ({
   <div className="CompareContainer">
 <h1 className="title">Compare CBD products</h1>
 <h2 className="subtitle">We help you compare and find the best CBD products on the market</h2>
-<button class="button is-primary">Start comparing</button>
+<Link class="button is-link">Start comparing</Link>
 
 
 </div>
@@ -48,15 +89,18 @@ export const IndexPageTemplate = ({
 <div className="ReviewsContainer">
 <h1 className="title">Brand reviews</h1>
 <h2 className="subtitle">Stories from real users to help you choose which product is right for you</h2>
-<button class="button is-primary">Start reading</button>
+<Link class="button is-link">Start reading</Link>
 
 
 </div>
 </div>
 
 </div>
+
 
 </section> 
+</div>
+</div>
 </div>
 
     <section className="section section--gradient">
@@ -70,17 +114,7 @@ export const IndexPageTemplate = ({
                
                 <Features gridItems={intro.blurbs} />
                 
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
-                  </div>
-                </div>
+               
               </div>
             </div>
           </div>
@@ -88,9 +122,10 @@ export const IndexPageTemplate = ({
       </div>
 
     </section>
+    <TestimonialSection/>
+
   </div>
 
-<TestimonialSection/>
 
 
 )
