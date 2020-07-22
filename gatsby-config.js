@@ -19,12 +19,7 @@ module.exports = {
       options: {
         plugins: [
           
-          {
-            resolve: `gatsby-plugin-layout`,
-            options: {
-              component: require.resolve(`./src/layouts/index.js`),
-            },
-          },
+       
           {
             resolve: 'gatsby-remark-relative-images',
             options: {

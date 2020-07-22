@@ -103,25 +103,7 @@ export const IndexPageTemplate = ({
 </div>
 </div>
 
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                
-                <h1 className="title">Best rated products</h1>
-               
-                <Features gridItems={intro.blurbs} />
-                
-               
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section>
+    
     <TestimonialSection/>
 
   </div>

@@ -98,13 +98,8 @@ export default () => (
 
        
       allNewsApiTopHeadlines{
-          edges {
-            node {
-              source{
+            nodes {
               
-              id
-              name
-              }
 
             
               title
@@ -113,8 +108,8 @@ export default () => (
               url
               urlToImage
               publishedAt 
-                
-            }
+              
+            
     
   }
 }

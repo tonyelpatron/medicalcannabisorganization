@@ -6,6 +6,7 @@ import '../assets/all.sass'
 import '../assets/megamenu.scss'
 import Newsletter from "./Newsletter"
 
+
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
