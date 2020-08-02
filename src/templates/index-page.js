@@ -4,7 +4,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
-import plant from "../../public/img/cannabisbackground.jpg"
+import plant from "../img/cannabisbackground.jpg"
 
 
 import {TestimonialSection} from 'gatsby-theme-testimonials';
